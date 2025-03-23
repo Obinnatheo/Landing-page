@@ -1,0 +1,93 @@
+ /* Reset */
+ body,
+ h1,
+ h2,
+ h3,
+ p,
+ a {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, sans-serif;
+     text-align: center;
+ }
+
+ /* Hero Section */
+ .hero {
+     background: #0073e6;
+     color: white;
+     padding: 50px 20px;
+ }
+
+ .hero h1 {
+     font-size: 2.5em;
+ }
+
+ .hero p {
+     font-size: 1.2em;
+ }
+
+ .cta-button {
+     display: inline-block;
+     margin-top: 15px;
+     padding: 10px 20px;
+     background: #ffcc00;
+     color: #333;
+     text-decoration: none;
+     font-weight: bold;
+     border-radius: 5px;
+ }
+
+ /* Features Section */
+ .features {
+     display: flex;
+     justify-content: space-around;
+     padding: 40px;
+ }
+
+ .feature {
+     max-width: 250px;
+ }
+
+ .feature img {
+     width: 80px;
+ }
+
+ /* Testimonials */
+ .testimonials {
+     background: #f5f5f5;
+     padding: 40px;
+ }
+
+ .testimonial {
+     margin: 15px;
+ }
+
+ /* Pricing */
+ .pricing {
+     padding: 40px;
+ }
+
+ .plan {
+     display: inline-block;
+     margin: 20px;
+     padding: 20px;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+ }
+
+ /* FAQ */
+ .faq {
+     padding: 40px;
+ }
+
+ details {
+     margin-bottom: 10px;
+ }
+
+ /* Footer */
+ footer {
+     background: #333;
+     color: white;
+     padding: 20px;
+     margin-top: 20px;
+ }
